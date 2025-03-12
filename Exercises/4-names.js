@@ -1,3 +1,7 @@
-const peter = 'peter'
+const secret= "super secret"
 
-const john = 'john'
+const manuel = 'peter'
+
+const john = 'john';
+
+module.exports = {john, manuel}

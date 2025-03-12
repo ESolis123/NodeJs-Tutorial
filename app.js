@@ -1,3 +1,7 @@
-console.log(__filename)
+const path = require('path');
 
-setInterval(()=>{console.log("hello")},500)
+console.log(path.sep)
+
+const filePath = path.join("/content", 'subfolder', 'test.txt')
+
+console.log(filePath)
